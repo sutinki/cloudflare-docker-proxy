@@ -2,7 +2,8 @@ addEventListener("fetch", (event) => {
   event.passThroughOnException();
   event.respondWith(handleRequest(event.request));
 });
-
+const workername = cloudflare-docker-proxy
+const username = sutinki
 const routes = {
   "${workername}.${username}.workers.dev/": "https://registry-1.docker.io",
 };
